@@ -13,7 +13,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
-    final t = Theme.of(context).textTheme.headline1;
+    final t1 = Theme.of(context).textTheme.headline1;
 
     return Scaffold(
         body: Center(
@@ -37,20 +37,20 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
               Column(
                 children: [
-                  Text('Haojun', style: t),
-                  Text('Zhuang', style: t),
-                  Text('Age: 19', style: t),
+                  Text('Haojun', style: t1),
+                  Text('Zhuang', style: t1),
+                  Text('Age: 19', style: t1),
                 ],
               )
             ],
           ),
           const SizedBox(height: 100.0),
           Container(
-            padding: EdgeInsets.only(left: 50.0, right: 20.0),
+            padding: const EdgeInsets.only(left: 50.0, right: 20.0),
             child: Center(
                 child: Text(
-                    'I am a second year berkeley student major in computer science. Next to meet you all!',
-                    style: t)),
+                    'I am a second year berkeley student major in computer science and cognitive science. Next to meet you all!',
+                    style: t1)),
           )
         ])));
   }
