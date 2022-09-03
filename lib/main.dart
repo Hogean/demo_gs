@@ -20,16 +20,16 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         textTheme: TextTheme(
           headline1: GoogleFonts.robotoSlab(
-              textStyle: TextStyle(
-            color: Colors.deepPurple.shade900,
+              textStyle: const TextStyle(
+            color: Colors.deepPurple,
             letterSpacing: 1,
-            fontSize: 30,
+            fontSize: 20,
           )),
           bodyText1: GoogleFonts.robotoSlab(
-            textStyle: TextStyle(
-              color: Colors.deepPurple.shade900.withOpacity(0.8),
+            textStyle: const TextStyle(
+              color: Colors.deepPurple,
               letterSpacing: 1,
-              fontSize: 20,
+              fontSize: 10,
             ),
           ),
         ),
