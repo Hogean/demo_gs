@@ -28,13 +28,13 @@ class MyApp extends StatelessWidget {
               textStyle: const TextStyle(
             color: Colors.deepPurple,
             letterSpacing: 1,
-            fontSize: 20,
+            fontSize: 30,
           )),
           bodyText1: GoogleFonts.robotoSlab(
             textStyle: const TextStyle(
-              color: Colors.deepPurple,
+              color: Colors.black,
               letterSpacing: 1,
-              fontSize: 10,
+              fontSize: 15,
             ),
           ),
         ),
