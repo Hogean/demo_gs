@@ -1,3 +1,6 @@
+/// feed_page.dart
+/// Author: Haojun Zhuang
+
 import 'package:flutter/material.dart';
 
 class FeedPage extends StatefulWidget {
@@ -10,6 +13,8 @@ class FeedPage extends StatefulWidget {
 class _FeedPageState extends State<FeedPage> {
   @override
   Widget build(BuildContext context) {
+    //adding images in the asset directory to "images"
+    //images are named from img1.jpeg to img9.jpeg
     for (int i = 1; i < 10; i++) {
       images.add(Container(
           padding: const EdgeInsets.all(10),
@@ -35,5 +40,6 @@ class _FeedPageState extends State<FeedPage> {
         ));
   }
 
+  // Images to be displayed in list view
   List<Widget> images = <Widget>[];
 }

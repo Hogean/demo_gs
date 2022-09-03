@@ -1,3 +1,6 @@
+/// post_page.dart
+/// Author: Haojun Zhuang
+
 import 'package:flutter/material.dart';
 
 class PostPage extends StatefulWidget {
@@ -91,7 +94,12 @@ class _PostListState extends State<PostList> {
     ]);
   }
 
+  // posts uploaded
   List<String> posts = <String>[];
+
+  // the form key of the textform
   final _formKey = GlobalKey<FormState>();
+
+  // text content in the textformfield
   String? content;
 }

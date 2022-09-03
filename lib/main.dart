@@ -1,3 +1,8 @@
+/// main.dart
+/// Description: A demo App for GlobeSisters
+///
+/// Author: Haojun Zhuang
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:demo_gs/feed_page.dart';
@@ -33,16 +38,6 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        textButtonTheme: TextButtonThemeData(
-          style: ButtonStyle(
-            shape: MaterialStateProperty.all(
-              RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
-            backgroundColor: MaterialStateProperty.all(Colors.transparent),
-          ),
-        ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ButtonStyle(
             shape: MaterialStateProperty.all(
@@ -71,8 +66,6 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
 
-  static const TextStyle defaultStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   static const List<Widget> _widgetOptions = <Widget>[
     FeedPage(),

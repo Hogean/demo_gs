@@ -1,3 +1,6 @@
+/// profile_page.dart
+/// Author: Haojun Zhuang
+
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
