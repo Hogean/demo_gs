@@ -22,22 +22,18 @@ class _FeedPageState extends State<FeedPage> {
     }
 
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Feeds'),
-          backgroundColor: Colors.deepPurple,
-        ),
         body: Center(
-          child: Container(
-            height: MediaQuery.of(context).size.height,
-            width: MediaQuery.of(context).size.width,
-            padding: const EdgeInsets.all(10),
-            child: ListView(
-              physics: const BouncingScrollPhysics(),
-              itemExtent: 500,
-              children: images,
-            ),
-          ),
-        ));
+      child: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
+        padding: const EdgeInsets.all(10),
+        child: ListView(
+          physics: const BouncingScrollPhysics(),
+          itemExtent: 500,
+          children: images,
+        ),
+      ),
+    ));
   }
 
   // Images to be displayed in list view
