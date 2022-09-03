@@ -21,7 +21,6 @@ class _ProfilePageState extends State<ProfilePage> {
           child: Stack(children: [
         Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Container(
-            padding: const EdgeInsets.only(top: 50.0, bottom: 20.0),
             width: MediaQuery.of(context).size.width,
             height: 250.0,
             decoration: BoxDecoration(
