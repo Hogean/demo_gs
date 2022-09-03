@@ -43,9 +43,6 @@ class MyApp extends StatelessWidget {
             backgroundColor: MaterialStateProperty.all(Colors.transparent),
           ),
         ),
-        iconTheme: IconThemeData(
-          color: Colors.deepPurple.shade900,
-        ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ButtonStyle(
             shape: MaterialStateProperty.all(
